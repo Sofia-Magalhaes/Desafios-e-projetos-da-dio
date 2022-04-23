@@ -24,10 +24,21 @@ public class ExercitandoJavaComDio {
         Exer3.calcular(1000, 5);
         */
         
-        System.out.println("Exercicio Quadrilatero");
+        System.out.println("Exercicio Quadrilatero-Sobrecarga");
         Quadrilatero_Sobrecarga.area(3);
         Quadrilatero_Sobrecarga.area(5d, 5d);
         Quadrilatero_Sobrecarga.area(7, 8, 9);
         Quadrilatero_Sobrecarga.area(5f, 5f);
+        
+        System.out.println("\nExercicio Return");
+        double areaQuadrado = Exercicio_Return.area(3);
+        System.out.println("Area do quadrado: "+ areaQuadrado);
+        
+        double areaRetangulo = Exercicio_Return.area(3);
+        System.out.println("Area do retangulo: "+areaRetangulo);
+        
+        double areaTrapezio = Exercicio_Return.area(7, 8, 9);
+        System.out.println("Area do trapezio: "+areaTrapezio);
+
     }
 }
